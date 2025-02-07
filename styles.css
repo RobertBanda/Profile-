@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #2a0561;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  h2 {
+    color:  #2a0561;
+    border-bottom: 2px solid  #2a0561;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    list-style: disc;
+    margin: 10px 0 20px 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .job {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 3px solid #007BFF; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.cv-wrapper {
+    background-color: #fff;
+    border-radius: 20px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px; 
+    overflow: hidden; 
+    border: 3px solid #2a0561; 
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
